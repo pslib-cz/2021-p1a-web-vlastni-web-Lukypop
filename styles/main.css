@@ -29,7 +29,7 @@ body {
     background-image: linear-gradient(var(--color-different-pink), var(--color-black));
     color: var(--color-white);
     text-align: center;
-    padding: 2em;
+    padding: 2em 0;
     margin-top: 1em;
   }
 .content-wrapper {
@@ -42,7 +42,7 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    
+    padding-right: 0;
     
 }
 .seraspina {
@@ -64,6 +64,7 @@ body {
 
     font-size: 4rem;
     margin: 2em 1em 0;
+    
 }
 .main-header h1, .main-header p{
     margin: 0;
@@ -133,4 +134,7 @@ article p {
     border-radius: 25px;
     padding: 0.5em;
     text-decoration: none;
+}
+#odkaz::after{
+    content:" «";
 }

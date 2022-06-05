@@ -22,7 +22,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [x] Soubory webu se nacházejí v GitHubovém repozitáři
 * [nejde:(uz] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [x] Web je dostupný přes Github Pages (do README.md přidejte odkaz)
-* [ ] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
+* [x] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
 * [ ] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
 
 ### CSS, vzhled
@@ -46,7 +46,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 ````
 * [x] Styly definují vzhled prvků podle typografických zvyklosti (velikosti nadpisů, formát odstavců)
 * [x] Odkazy (například menu) využívají efekt ``hover``
-* [ ] Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ``::before`` nebo ``::after``)
+* [x] Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ``::before`` nebo ``::after``)
 
 ### Vyzkoušejte nad rámec probrané látky
 
@@ -56,7 +56,7 @@ Po splnění předchozích bodů
 * [ ] Pro layout stránky je použit [flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [ ] Jsou použity ikonky přes Font Awesome nebo [IcoMoon](https://icomoon.io/)
 * [ ] vytvořte galerii obrázků tvořenou náhledy vedle sebe (``display: flex`` nebo ``inline-block``)
-* [ ] Použijte pozadí přes lineární nebo radiální gradient
+* [x] Použijte pozadí přes lineární nebo radiální gradient
 * [ ] + jakékoli další vylepšení, kterým chcete zanechat přetrvávající dojem
 
 ## Kde hledat řešení a inspiraci?
