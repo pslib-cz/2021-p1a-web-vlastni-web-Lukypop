@@ -1,34 +1,136 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+html {
     font-size: 120%;
-    background-color: #333;
+
+    --color-pink: #F864A4;
+    --color-purple: #DC93F6;
+    --color-blue: #6917d0;
+    --color-light-blue: #aadbff;
+    --color-light-blue-opacity: #aadbff7f;
+    --color-black: black;
+    --color-white: white;
+    --color-gray: #333;
+    --color-different-pink: #df8deb;
+
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--color-gray);
 }
 
-.content-wrapper{
+body {
+    background-image: linear-gradient(var(--color-pink), var(--color-purple));
+
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(var(--color-different-pink), var(--color-black));
+    color: var(--color-white);
+    text-align: center;
+    padding: 2em;
+    margin-top: 1em;
+  }
+.content-wrapper {
     max-width: 960px;
     margin: 0 auto;
 }
 
-#navbar
-ul {
+.main-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+    
+}
+.seraspina {
+    background-image: url(../images/lol.jpg);
+
+}
+
+.teemojefrajer {
+    background-image: url(../images/teemo.jpg);
+
+}
+
+.main-header header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 4rem;
+    margin: 2em 1em 0;
+}
+.main-header h1, .main-header p{
+    margin: 0;
+    color: var(--color-white);
+    text-shadow: 3px 3px 0 var(--color-purple);
+}
+
+/* navbar */
+nav {
+    background-image: linear-gradient(var(--color-pink), var(--color-purple));
+    background-repeat: no-repeat;
+}
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
-  
-  li {
+nav li {
     float: left;
+    font-size: 2rem;
 }
-  
-  li a {
+nav li a {
     display: block;
-    color: white;
+    color: var(--color-white);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+nav li a:hover {
+    background-color: var(--color-gray);
+}
 
-  li a:hover {
-    background-color: #111;
+.text {
+    background-color: var(--color-light-blue-opacity);
+
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 1em;
+}   
+
+article h1 {
+    font-size: 2.5rem;
+}
+
+article h2 {
+    font-size: 1.5rem;
+}
+
+article p {
+    font-size: 1rem;;
+}
+
+#odkaz {
+    justify-content: right;
+    align-self: end;
+    font-size: 1rem;
+    color: var(--color-white);
+    
+    margin-top: 20em;
+    margin-bottom: 2em;
+    display: block;
+    border-style: solid;
+    border-width: 10px;
+    background-color: var(--color-gray);
+    border-color: var(--color-gray);
+    border-radius: 25px;
+    padding: 0.5em;
+    text-decoration: none;
 }
