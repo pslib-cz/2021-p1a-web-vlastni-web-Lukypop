@@ -20,10 +20,10 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [x] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
 * [x] Soubory webu jsou členěny do složek (např. ``/styles``, ``/images``, ``/fonts``)
 * [x] Soubory webu se nacházejí v GitHubovém repozitáři
-* [nejde:(uz] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
+* [x] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [x] Web je dostupný přes Github Pages (do README.md přidejte odkaz)
 * [x] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
-* [ ] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
+* [x] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
 
 ### CSS, vzhled
 
@@ -36,7 +36,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [x] Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu
 * [x] Web používá omezenou paletu barev a mezer (lze zajistit přes [proměnné v CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties))
 * [x] Barevné schéma je vkusné a odpovídá tématu. Inspiraci můžete čerpat z [editoru palet](https://coolors.co/palettes/trending)
-* [/] Šířka hlavního bloku stránky je omezená (tedy používá například ``width``, ``margin``, ``max-width``)
+* [x] Šířka hlavního bloku stránky je omezená (tedy používá například ``width``, ``margin``, ``max-width``)
 * [x] Web obsahuje obrázek v záhlaví zobrazovaný na celou velikost/výšku obrazovky
 ````    
 .main-header {
@@ -54,10 +54,10 @@ Po splnění předchozích bodů
 
 * [ ] Na webu je použitý jednoduchý efekt [paralaxního obrázku](https://www.w3schools.com/howto/howto_css_parallax.asp)
 * [ ] Pro layout stránky je použit [flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [ ] Jsou použity ikonky přes Font Awesome nebo [IcoMoon](https://icomoon.io/)
+* [x] Jsou použity ikonky přes Font Awesome nebo [IcoMoon](https://icomoon.io/)
 * [ ] vytvořte galerii obrázků tvořenou náhledy vedle sebe (``display: flex`` nebo ``inline-block``)
 * [x] Použijte pozadí přes lineární nebo radiální gradient
-* [ ] + jakékoli další vylepšení, kterým chcete zanechat přetrvávající dojem
+* [x] + jakékoli další vylepšení, kterým chcete zanechat přetrvávající dojem
 
 ## Kde hledat řešení a inspiraci?
 
