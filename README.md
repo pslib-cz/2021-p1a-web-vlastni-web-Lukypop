@@ -59,6 +59,8 @@ Po splnění předchozích bodů
 * [x] Použijte pozadí přes lineární nebo radiální gradient
 * [x] + jakékoli další vylepšení, kterým chcete zanechat přetrvávající dojem
 
+
+
 ## Kde hledat řešení a inspiraci?
 
 * [CSS Tricks Guides](https://css-tricks.com/guides/)
